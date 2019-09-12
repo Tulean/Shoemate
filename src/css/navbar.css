@@ -1,0 +1,19 @@
+.navbar {
+  background-color: white !important;
+  display: flex;
+  justify-content: center;
+}
+.nav-link {
+  color: #828284;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin: 0em 0.5em;
+  padding: 10px 25px;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: #ff4e00 !important;
+}
+.navbar-collapse {
+  flex-grow: 0 !important;
+}

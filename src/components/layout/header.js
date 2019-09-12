@@ -25,7 +25,7 @@ class header extends Component {
             <FontAwesomeIcon
               className="header-user"
               icon={faUser}
-              style={{ color: 'orange' }}
+              style={{ color: '#ff4e00' }}
             />
             <Button className="header-cart-button" variant="outline-dark">
               My Cart
@@ -34,7 +34,11 @@ class header extends Component {
           </Col>
         </Row>
         <hr width="90%" />
-        <NavBar />
+        <Row className="navbar-wrap">
+          <Col md={12}>
+            <NavBar />
+          </Col>
+        </Row>
       </Container>
     );
   }

@@ -1,14 +1,6 @@
 import React, { Component } from 'react';
-import {
-  Navbar,
-  Nav,
-  Form,
-  FormControl,
-  Button,
-  Container,
-  Col,
-  Row
-} from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
+import '../../css/navbar.css';
 
 class navbar extends Component {
   render() {
@@ -17,18 +9,12 @@ class navbar extends Component {
         <Navbar bg="light" expand="lg">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
+            <Nav>
               <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Link</Nav.Link>
+              <Nav.Link href="#link">About</Nav.Link>
+              <Nav.Link href="#link">Shop</Nav.Link>
+              <Nav.Link href="#link">Contact</Nav.Link>
             </Nav>
-            <Form inline>
-              <FormControl
-                type="text"
-                placeholder="Search"
-                className="mr-sm-2"
-              />
-              <Button variant="outline-success">Search</Button>
-            </Form>
           </Navbar.Collapse>
         </Navbar>
       </div>
