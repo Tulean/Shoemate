@@ -1,0 +1,49 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: 'Inconsolata', monospace;
+  letter-spacing: 1px;
+}
+
+.header {
+  padding: 2em 2em 0 2em;
+}
+.header-title .title {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.26);
+  color: #454546;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+.header-info {
+  text-align: left;
+  white-space: nowrap;
+  color: #9c9b9b;
+}
+.header-cart {
+  text-align: right;
+  white-space: nowrap;
+}
+.header-cart-button {
+  border-radius: 0;
+  margin: 0 1rem;
+  padding: 0.5em 2em;
+  letter-spacing: 1px;
+  color: #454546;
+  cursor: pointer;
+  border: 1px solid #dde2e6;
+}
+@media only screen and (max-width: 576px) {
+  .header-info {
+    text-align: center;
+  }
+  .header-cart {
+    text-align: center;
+  }
+}
