@@ -3,7 +3,7 @@
 }
 
 .carousel-item > img {
-  filter: brightness(50%);
+  filter: brightness(75%);
 }
 
 .carousel-caption {
@@ -14,51 +14,43 @@
 }
 
 .carousel-caption > h1 {
-  font-size: calc(1rem + 1vw);
+  font-size: calc(2rem + 1vw);
+  color: white;
+  line-height: 1.4em;
+  letter-spacing: 5px;
 }
 .carousel-caption > h6 {
-  font-size: calc(0.4rem + 1vw);
+  font-size: calc(0.7rem + 1vw);
+  color: #fcfcfc;
+  letter-spacing: 5px;
+  line-height: 1.3em;
 }
 @media only screen and (max-width: 768px) {
   .carousel-caption {
-    position: absolute;
     top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
   }
 
   .carousel-caption > h1 {
-    font-size: calc(1rem + 1vw);
+    font-size: calc(1.6rem + 1vw);
   }
   .carousel-caption > h6 {
-    font-size: calc(0.4rem + 1vw);
+    font-size: calc(0.6rem + 1vw);
   }
 }
 @media only screen and (max-width: 576px) {
-  .carousel-caption {
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-
   .carousel-caption > h1 {
-    font-size: calc(1rem + 1vw);
+    font-size: calc(1.4rem + 1vw);
   }
   .carousel-caption > h6 {
-    font-size: calc(0.4rem + 1vw);
+    font-size: calc(0.5rem + 1vw);
   }
 }
 @media only screen and (max-width: 375px) {
   .carousel-caption {
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    top: 45%;
   }
-
   .carousel-caption > h1 {
-    font-size: calc(1rem + 1vw);
+    font-size: calc(1.3rem + 1vw);
   }
   .carousel-caption > h6 {
     font-size: calc(0.4rem + 1vw);

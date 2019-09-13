@@ -17,3 +17,9 @@
 .navbar-collapse {
   flex-grow: 0 !important;
 }
+.navbar-light .navbar-toggler {
+  border: none;
+}
+.navbar-light .navbar-toggler:focus {
+  outline: none;
+}

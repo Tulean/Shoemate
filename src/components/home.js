@@ -14,10 +14,8 @@ class home extends Component {
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h1>First slide label</h1>
-                <h6>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </h6>
+                <h1>Men’s Wear</h1>
+                <h6>Save up to 50% off summer styles</h6>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -28,8 +26,8 @@ class home extends Component {
               />
 
               <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h1>Women’s Wear</h1>
+                <h6>New Arrivals this weekend</h6>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -40,11 +38,8 @@ class home extends Component {
               />
 
               <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur.
-                </p>
+                <h1>Unisex Wear</h1>
+                <h6>Come and grab a pair of our quality boots</h6>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
