@@ -23,17 +23,15 @@ class header extends Component {
               <h1 className="title">Bootmate</h1>
             </Col>
             <Col xs={12} sm={3} md={3} className="header-cart">
-              <FontAwesomeIcon
-                className="header-user"
-                icon={faUser}
-                style={{ color: '#ff4e00' }}
-              />
               <Button className="header-cart-button" variant="outline-dark">
-                My Cart
                 <FontAwesomeIcon
-                  icon={faCartArrowDown}
-                  style={{ marginLeft: '0.5em' }}
+                  className="header-user"
+                  icon={faUser}
+                  style={{ color: '#ff4e00' }}
                 />
+              </Button>
+              <Button className="header-cart-button" variant="outline-dark">
+                <FontAwesomeIcon icon={faCartArrowDown} />
               </Button>
             </Col>
           </Row>
