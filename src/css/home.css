@@ -1,3 +1,18 @@
 .home {
   height: 100vh;
 }
+
+.carousel-item > img {
+  filter: brightness(50%);
+}
+
+.carousel-caption {
+  top: 20%;
+}
+
+.carousel-caption > h1 {
+  font-size: 5vw;
+}
+.carousel-caption > h6 {
+  font-size: 3vw;
+}

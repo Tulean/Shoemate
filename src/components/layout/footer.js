@@ -20,9 +20,9 @@ class footer extends Component {
             <Col md={12} lg={3} className="footer-section">
               <h3 className="footer-title">About Us</h3>
               <p>
-                Googles proudly provides quality products at an affordable
+                Bootmate proudly provides quality products at an affordable
                 price. We have been in business for over 120 years and still
-                going strong.{' '}
+                going strong. All of our boots are handmade and have a lifetime limited warranty.
               </p>
             </Col>
             <Col md={12} lg={3} className="footer-section">
@@ -31,7 +31,7 @@ class footer extends Component {
               <p>456 Vanness Street, San Fracisco, California</p>
               <h4 className="footer-h4">Contact :</h4>
               <p>Phone: +1 415-999-9999</p>
-              <p>Email: info@googles.com</p>
+              <p>Email: info@bootmate.com</p>
             </Col>
             <Col md={12} lg={3} className="footer-section">
               <h3 className="footer-title">Quick Links</h3>
@@ -72,7 +72,7 @@ class footer extends Component {
           </Row>
           <Row>
             <p className="copyright">
-              2019 Googles. All Rights Reserved | Design by W3layouts | Built by
+              2019 Googles. All Rights Reserved | Design inspired by W3layouts & Sephora | Built by
               Tuan
             </p>
           </Row>

@@ -1,8 +1,9 @@
 .header {
   padding: 2em 2em 0 2em;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.125);
 }
 .header-title .title {
-  font-size: 3em;
+  font-size: 12vw;
   font-weight: bolder;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.26);
   color: #454546;
