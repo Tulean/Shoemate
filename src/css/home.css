@@ -44,6 +44,10 @@
   .carousel-caption > h6 {
     font-size: calc(0.5rem + 1vw);
   }
+  .carousel-item,
+  .carousel-item > img {
+    height: 55vw;
+  }
 }
 @media only screen and (max-width: 375px) {
   .carousel-caption {

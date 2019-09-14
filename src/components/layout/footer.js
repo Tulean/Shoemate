@@ -22,7 +22,8 @@ class footer extends Component {
               <p>
                 Bootmate proudly provides quality products at an affordable
                 price. We have been in business for over 120 years and still
-                going strong. All of our boots are handmade and have a lifetime limited warranty.
+                going strong. All of our boots are handmade and have a lifetime
+                limited warranty.
               </p>
             </Col>
             <Col md={12} lg={3} className="footer-section">
@@ -72,8 +73,8 @@ class footer extends Component {
           </Row>
           <Row>
             <p className="copyright">
-              2019 Googles. All Rights Reserved | Design inspired by W3layouts & Sephora | Built by
-              Tuan
+              2019 Bootmate. All Rights Reserved | Design inspired by W3layouts
+              & Sephora | Built by Tuan
             </p>
           </Row>
         </Container>
