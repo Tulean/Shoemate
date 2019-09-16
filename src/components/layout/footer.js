@@ -20,7 +20,7 @@ class footer extends Component {
             <Col md={12} lg={3} className="footer-section">
               <h3 className="footer-title">About Us</h3>
               <p>
-                Bootmate proudly provides quality products at an affordable
+                Shoemate proudly provides quality products at an affordable
                 price. We have been in business for over 120 years and still
                 going strong. All of our boots are handmade and have a lifetime
                 limited warranty.
@@ -73,7 +73,7 @@ class footer extends Component {
           </Row>
           <Row>
             <p className="copyright">
-              2019 Bootmate. All Rights Reserved | Design inspired by W3layouts
+              2019 Shoemate. All Rights Reserved | Design inspired by W3layouts
               & Sephora | Built by Tuan
             </p>
           </Row>

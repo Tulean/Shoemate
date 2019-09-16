@@ -4,11 +4,11 @@ const carousel = () => {
   return (
     <div>
       <Container>
-        <Carousel indicators={false} interval={null}>
+        <Carousel indicators={false} interval={4000}>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="./images/slider1.jpg"
+              src="./images/slider/slider1.jpg"
               alt="First slide"
             />
             <Carousel.Caption>
@@ -19,7 +19,7 @@ const carousel = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="./images/slider2.jpg"
+              src="./images/slider/slider2.jpg"
               alt="Third slide"
             />
 
@@ -31,7 +31,7 @@ const carousel = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="./images/slider3.jpg"
+              src="./images/slider/slider3.jpg"
               alt="Third slide"
             />
 

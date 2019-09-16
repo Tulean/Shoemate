@@ -1,5 +1,5 @@
 .footer {
-  background-color: #151515;
+  background-color: #ebebeb;
 }
 .footer-email {
   border: 1px solid #3e3c3c;
@@ -11,7 +11,7 @@
   margin-bottom: 1em;
   border-bottom: 1px dotted;
   padding-bottom: 0.8em;
-  color: white;
+  color: #333;
 }
 .footer-links {
   padding-left: 0;
