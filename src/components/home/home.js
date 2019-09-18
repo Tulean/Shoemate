@@ -3,8 +3,13 @@ import Carousel from './carousel';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../../css/home.css';
 import MultiCarousel from './multiCarousel';
+import Countdown from './clockCounter';
 
 class home extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { deadline: 'November, 18, 2019' };
+  }
   render() {
     return (
       <div className="home">
@@ -30,9 +35,11 @@ class home extends Component {
             <Col className="homeCols">
               <img
                 src="/images/home_img_countdown.jpg"
-                className="homeImages"
+                className="homeImages counterImage"
                 alt="home-grid-3"
               />
+              <h1 className="summer_sale_title">SUMMER FLASH SALE</h1>
+              <Countdown deadline={this.state.deadline} />
             </Col>
           </Row>
           <Row className="homeRows" style={{ marginBottom: '2em' }}>
