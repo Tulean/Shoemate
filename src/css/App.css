@@ -8,7 +8,8 @@ h6 {
   font-family: 'Inconsolata', monospace;
   letter-spacing: 1px;
 }
-p {
+p,
+li {
   margin: 0;
   letter-spacing: 1px;
   font-size: 0.9em;

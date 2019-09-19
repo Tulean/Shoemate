@@ -45,11 +45,7 @@ class home extends Component {
           <Row className="homeRows" style={{ marginBottom: '2em' }}>
             <Col className="homeCols">
               <h1
-                style={{
-                  textAlign: 'center',
-                  marginBottom: '30px',
-                  fontSize: '50px'
-                }}
+                className="arrivals_title"
               >
                 NEW ARRIVALS
               </h1>

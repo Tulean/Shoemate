@@ -15,18 +15,12 @@ class footer extends Component {
   render() {
     return (
       <div className="footer">
-        <Container fluid={true}>
+        <Container>
           <Row>
-            <Col md={12} lg={3} className="footer-section">
-              <h3 className="footer-title">About Us</h3>
-              <p>
-                Shoemate proudly provides quality products at an affordable
-                price. We have been in business for over 120 years and still
-                going strong. All of our boots are handmade and have a lifetime
-                limited warranty.
-              </p>
+            <Col className="footer-title-sm" md={12}>
+              SHOEMATE
             </Col>
-            <Col md={12} lg={3} className="footer-section">
+            <Col md={12} lg={4} className="footer-section">
               <h3 className="footer-title">Get in touch</h3>
               <h4 className="footer-h4">Location :</h4>
               <p>456 Vanness Street, San Fracisco, California</p>
@@ -34,7 +28,7 @@ class footer extends Component {
               <p>Phone: +1 415-999-9999</p>
               <p>Email: info@bootmate.com</p>
             </Col>
-            <Col md={12} lg={3} className="footer-section">
+            <Col md={12} lg={4} className="footer-section">
               <h3 className="footer-title">Quick Links</h3>
               <ul className="footer-links">
                 <li>Home</li>
@@ -43,7 +37,7 @@ class footer extends Component {
                 <li>Contact Us</li>
               </ul>
             </Col>
-            <Col md={12} lg={3} className="footer-section">
+            <Col md={12} lg={4} className="footer-section">
               <h3 className="footer-title">Sign up for your offers</h3>
               <p>
                 By subscribing to our mailing list, you will always get the

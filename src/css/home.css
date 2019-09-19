@@ -27,13 +27,14 @@
 /*Flash Sale Section*/
 .summer_sale_title {
   position: absolute;
-  top: 15%;
+  top: 25%;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   font-size: calc(2.5rem + 1vw);
   color: white;
   white-space: nowrap;
+  font-weight: bolder;
 }
 .counterImage {
   min-height: 200px;
@@ -41,7 +42,7 @@
 .countdown {
   display: flex;
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -59,6 +60,11 @@
 }
 
 /*Multi Item Carousel*/
+.arrivals_title {
+  text-align: center;
+  margin-bottom: '30px';
+  font-size: calc(2rem + 1vw);
+}
 ._37Q_YD174b3Wq9o-IFVdKS {
   height: 100%;
   z-index: 999;
