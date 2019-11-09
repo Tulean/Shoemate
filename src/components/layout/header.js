@@ -15,7 +15,14 @@ class header extends Component {
               <div>Call 415-999-9999</div>
             </Col>
             <Col xs={12} sm={6} md={6} className="header-title">
-              <h1 className="title">Shoemate</h1>
+              <h1 className="title">
+                <a
+                  href="/"
+                  style={{ textDecoration: 'none', color: 'inherit' }}
+                >
+                  Shoemate
+                </a>
+              </h1>
             </Col>
             <Col xs={12} sm={3} md={3} className="header-cart">
               <Button className="header-cart-button" variant="outline-dark">

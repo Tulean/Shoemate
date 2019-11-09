@@ -1,0 +1,9 @@
+/*Card component*/
+.card {
+  border: none;
+  margin: 2rem 0;
+  width: 18rem;
+}
+.card > img {
+  border-radius: 0;
+}
